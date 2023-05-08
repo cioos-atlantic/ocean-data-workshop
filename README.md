@@ -27,6 +27,11 @@ https://cioos-siooc.github.io/metadata-entry-form/#/en/region-select
 
 ### Latitude and longitude
 
+Try converting the point
+44° 42′ 0″ N, 63° 38′ 0″ W
+from degrees, minutes, seconds format to decimal degress using the web-based conversion tool here:
 https://www.fcc.gov/media/radio/dms-decimal
-(use lat/lon from https://www.ngs.noaa.gov/NCAT/ as example)
-background info on globe/projections link
+
+### ISO 8601 dates
+
+
