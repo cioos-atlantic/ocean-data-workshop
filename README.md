@@ -30,10 +30,7 @@ https://cioos-siooc.github.io/metadata-entry-form/#/en/region-select
 
 ### Latitude and longitude
 
-Try converting the point
-44° 42′ 0″ N, 63° 38′ 0″ W
-from degrees, minutes, seconds format to decimal degress using the web-based conversion tool here:
-https://www.fcc.gov/media/radio/dms-decimal
+If the location coordinates in your dataset are in degrees, minutes, seconds format, you can [follow the steps here](LAT_LON_CONVERSION.md) to convert it to the standard decimal degrees format.
 
 ### ISO 8601 dates
 

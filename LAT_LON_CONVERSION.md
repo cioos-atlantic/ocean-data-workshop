@@ -8,27 +8,39 @@ Try converting the point
 from degrees, minutes, seconds format to decimal degress using the web-based conversion tool here:
 https://www.fcc.gov/media/radio/dms-decimal
 
-## Converting a column of data in Excel
+## Converting a column of data 
 
 Given a column that looks like:
 
 | Position |
 | -- |
-| 44°42′0″N, 63°38′0″W |
+| 44° 42' 0" N, 63° 38' 0" W |
 | ... |
 
-First, split this into separate columns, 
+You can copy all the data from this column into the following batch conversion tool to convert to degrees, minutes, seconds format:
 
-| Position | N_degrees | N_minutes | N_seconds | W_degrees | W_minutes | W_seconds | latitude | longitude |
-| - | - | - | - | - | - | - | - | - |
-| 44°42′0″N, 63°38′0″W | 44 | 42 | 0 | 63 | 38 | 0 |  |  |
-| ... | | | | | | | | |
+https://rechneronline.de/geo-coordinates/batch.php
 
-Now, for the latitude column, apply the following formula to all data cells in the column (subsituting Excel letters for the column names as needed):
+Once converted, you will get the latitude and longitudes separated by a space:
 
-`=N_degrees+(N_minutes/60)+(N_seconds/3600)`
+44.7 -63.633333
+...
 
-For the longitude column, apply the following formula to all data cells in the column:
+Paste this list of data into your spreadsheet:
 
-`=W_degrees+(W_minutes/60)+(W_seconds/3600)`
+| Position | lat_long |
+| - | - |
+| 44° 42' 0" N, 63° 38' 0" W | 44.7 -63.633333 |
+| ... |
 
+Next, create separate latitude and longitude columns. For the latitude column, enter the formula:
+
+`=LEFT(B2,FIND(" ",B2,1)-1)`
+
+Where 'B' can be replaced with the column letter for the 'lat_long' column, and fill this formula down all cells in the column.
+
+Similarly for longitude, use the formula:
+
+`=RIGHT(B2,LEN(B2)-SEARCH(" ",B2,1))`
+
+Replacing 'B' for the correct column letter and filling down as in the latitude case.
