@@ -44,3 +44,10 @@ Similarly for longitude, use the formula:
 `=RIGHT(B2,LEN(B2)-SEARCH(" ",B2,1))`
 
 Replacing 'B' for the correct column letter and filling down as in the latitude case.
+
+You should now have a table that looks like the following:
+
+| Position | lat_long | latitude | longitude |
+| - | - | - | - |
+| 44° 42' 0" N, 63° 38' 0" W | 44.7 -63.633333 | 44.7 | -63.633333 |
+| ... | | | |
