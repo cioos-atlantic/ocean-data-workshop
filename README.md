@@ -12,7 +12,10 @@ One objective of the workshop will be to take this CSV file in raw form and tran
 
 Most international ocean observing systems use the [ISO 19115 Geograophic information metadata standard](https://www.iso.org/standard/53798.html), and extend the ISO19115 schema for use in their regions. 
 
-ISO 19115 is made up from ISO19115-1 which defines the core standard, the ISO19115-2 extension for acquisition and processing, and ISO19115-3 which defines the XML schema implementation.
+ISO 19115 is made up from three documents:
+* ISO19115-1 defines the core standard
+* ISO19115-2 is an extension for data acquisition and processing
+* ISO19115-3 defines the XML schema implementation
 
 For more information about the ISO 19115 standard and how it has been implemented across different regions and organizations globally, see the [Research Data Alliance (RDA) metadata standards page](https://rdamsc.bath.ac.uk/msc/m22).
 
@@ -33,5 +36,7 @@ from degrees, minutes, seconds format to decimal degress using the web-based con
 https://www.fcc.gov/media/radio/dms-decimal
 
 ### ISO 8601 dates
+
+
 
 
