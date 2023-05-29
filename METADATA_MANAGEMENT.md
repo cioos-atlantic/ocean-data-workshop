@@ -1,5 +1,5 @@
 # Metadata Management
-For more general information and definitions of metadata, see the [General Items](https://github.com/cioos-atlantic/ocean-data-workshop/blob/main/GENERAL_ITEMS.md](https://github.com/cioos-atlantic/ocean-data-workshop/blob/main/GENERAL_ITEMS.md) section.
+For more general information and definitions of metadata, see the [General Items](https://github.com/cioos-atlantic/ocean-data-workshop/blob/main/GENERAL_ITEMS.md#metadata) section.
 
 ## CIOOS metadata entry form
 
