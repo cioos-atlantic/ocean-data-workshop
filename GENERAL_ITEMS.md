@@ -10,10 +10,10 @@ One objective of the workshop will be to take this CSV file in raw form and tran
 [CF Conventions](https://cfconventions.org)  
 [US IOOS Compliance Checker](https://compliance.ioos.us/index.html) [Online, Web-based]
 
-### Metadata
+## Metadata
 Metadata is data that describes data. It uses structured elements to describe data in a precise way, and provides information about the data that can be used for classifying, organizing, labeling, sorting, or searching it. 
 
-#### Metadata Terms (from [University of Pittsburg Library System FAQs](https://pitt.libanswers.com/faq/214800))
+### Metadata Terms (from [University of Pittsburg Library System FAQs](https://pitt.libanswers.com/faq/214800))
 
 A *metadata element* is a field containing a piece of information about the data. For example: 'title', 'author', 'latitude', 'longitude', etcetera.
 
@@ -23,7 +23,7 @@ A *metadata standard* is "a high level document which establishes a common way o
 
 A *metadata profile* "describes the use of metadata elements declared in a metadata standard and/or schema for a specific application or use-case. It adds rules and guidelines on the use of the elements, identifies element obligations and constraints (e.g. controlled vocabularies, name authorities, and encoding schemes), and provides comments and examples to assist in the understanding of the elements. An application profile may include metadata elements integrated from one or more metadata standards/schema. This allows it to meet the needs of a specific application or use-case."
 
-#### ISO 19115
+### ISO 19115
 Most international ocean observing systems use the [ISO 19115 Geographic information metadata standard](https://www.iso.org/standard/53798.html), and extend the ISO19115 schema for use in their regions. 
 
 ISO 19115 is made up from three documents:
