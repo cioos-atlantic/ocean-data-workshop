@@ -10,18 +10,8 @@ One objective of the workshop will be to take this CSV file in raw form and tran
 [CF Conventions](https://cfconventions.org)  
 [US IOOS Compliance Checker](https://compliance.ioos.us/index.html) [Online, Web-based]
 
-
 ### Metadata
-
-
-Most international ocean observing systems use the [ISO 19115 Geographic information metadata standard](https://www.iso.org/standard/53798.html), and extend the ISO19115 schema for use in their regions. 
-
-ISO 19115 is made up from three documents:
-* ISO 19115-1 defines the core standard
-* ISO 19115-2 is an extension for data acquisition and processing
-* ISO 19115-3 defines the XML schema implementation
-
-For more information about the ISO 19115 standard and how it has been implemented across different regions and organizations globally, see the [Research Data Alliance (RDA) metadata standards page](https://rdamsc.bath.ac.uk/msc/m22).
+Metadata is data that describes data. It uses structured elements to describe data in a precise way, and provides information about the data that can be used for classifying, organizing, labeling, sorting, or searching it. 
 
 #### Metadata Terms (from [University of Pittsburg Library System FAQs](https://pitt.libanswers.com/faq/214800))
 
@@ -32,6 +22,16 @@ A *metadata schema* is "a logical plan showing the relationships between metadat
 A *metadata standard* is "a high level document which establishes a common way of structuring and understanding data, and includes principles and implementation issues for utilizing the standard." A standard is a schema that is maintained by a governing body.
 
 A *metadata profile* "describes the use of metadata elements declared in a metadata standard and/or schema for a specific application or use-case. It adds rules and guidelines on the use of the elements, identifies element obligations and constraints (e.g. controlled vocabularies, name authorities, and encoding schemes), and provides comments and examples to assist in the understanding of the elements. An application profile may include metadata elements integrated from one or more metadata standards/schema. This allows it to meet the needs of a specific application or use-case."
+
+#### ISO 19115
+Most international ocean observing systems use the [ISO 19115 Geographic information metadata standard](https://www.iso.org/standard/53798.html), and extend the ISO19115 schema for use in their regions. 
+
+ISO 19115 is made up from three documents:
+* ISO 19115-1 defines the core standard
+* ISO 19115-2 is an extension for data acquisition and processing
+* ISO 19115-3 defines the XML schema implementation
+
+For more information about the ISO 19115 standard and how it has been implemented across different regions and organizations globally, see the [Research Data Alliance (RDA) metadata standards page](https://rdamsc.bath.ac.uk/msc/m22).
 
 ## Controlled Vocabularies
 
