@@ -4,7 +4,7 @@ For more general information and definitions of metadata, see the [General Items
 ## CIOOS metadata entry form
 
 The CIOOS metadata entry form can be accessed here:
-https://cioos-siooc.github.io/metadata-entry-form/#/en/region-select
+[https://cioos-siooc.github.io/metadata-entry-form/#/en/atlantic](https://cioos-siooc.github.io/metadata-entry-form/#/en/atlantic)
 
 ## Accessing the form
 
