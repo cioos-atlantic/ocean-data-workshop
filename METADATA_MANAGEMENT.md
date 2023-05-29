@@ -21,23 +21,6 @@ ISO 19115 is made up from three documents:
 
 For more information about the ISO 19115 standard and how it has been implemented across different regions and organizations globally, see the [Research Data Alliance (RDA) metadata standards page](https://rdamsc.bath.ac.uk/msc/m22).
 
-## Controlled Vocabularies
-
-### NERC Vocabulary Server (NVS)
-
-"The NVS gives access to standardised and hierarchically-organized vocabularies. It is managed by the British Oceanographic Data Centre at the National Oceanography Centre (NOC) in Liverpool and Southampton, and receives funding from the Natural Environment Research Council (NERC) in the United Kingdom." [Access the NERC Vocabulary Server here.](http://vocab.nerc.ac.uk).
-
-### Global Change Master Directory Keywords
-
-"Global Change Master Directory (GCMD) Keywords are a hierarchical set of controlled Earth Science vocabularies that help ensure Earth science data, services, and variables are described in a consistent and comprehensive manner and allow for the precise searching of metadata and subsequent retrieval of data, services, and variables. Initiated over twenty years ago, GCMD Keywords are periodically analyzed for relevancy and will continue to be refined and expanded in response to user needs." [Access the Global Change Master Directory Keywords here.](https://www.earthdata.nasa.gov/learn/find-data/idn/gcmd-keywords)
-
-### CF Standard Names
-
-The Climate and Forecast Conventions include a standard name table that defines vocabularies to identify physical quantities. [Access the Standard Name Table here.](https://cfconventions.org/Data/cf-standard-names/current/build/cf-standard-name-table.html)
-
-If none of the available Standard Names accurately describe the variable or data within your dataset, it is possible to create a new name. Refer to the [Guidelines for Construction of CF Standard Names](http://cfconventions.org/Data/cf-standard-names/docs/guidelines.html) for information on how these Standard Names are constructred, and how new names might be derived following these conventions.
-
-
 ## CIOOS metadata entry form
 
 The CIOOS metadata entry form can be accessed here:
