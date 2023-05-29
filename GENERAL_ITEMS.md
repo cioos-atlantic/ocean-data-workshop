@@ -11,7 +11,8 @@ One objective of the workshop will be to take this CSV file in raw form and tran
 [US IOOS Compliance Checker](https://compliance.ioos.us/index.html) [Online, Web-based]
 
 
-### ISO 19115 Metadata
+### Metadata
+
 
 Most international ocean observing systems use the [ISO 19115 Geographic information metadata standard](https://www.iso.org/standard/53798.html), and extend the ISO19115 schema for use in their regions. 
 
@@ -22,13 +23,15 @@ ISO 19115 is made up from three documents:
 
 For more information about the ISO 19115 standard and how it has been implemented across different regions and organizations globally, see the [Research Data Alliance (RDA) metadata standards page](https://rdamsc.bath.ac.uk/msc/m22).
 
-A *metadata standard* is
+#### Metadata Terms (from [University of Pittsburg Library System FAQs](https://pitt.libanswers.com/faq/214800))
 
-A *metadata schema* is
+A *metadata element* is a field containing a piece of information about the data. For example: 'title', 'author', 'latitude', 'longitude', etcetera.
 
-A *metadata profile* is
+A *metadata schema* is "a logical plan showing the relationships between metadata elements. It defines the semantics, the syntax, and the optionality of the metadata elements (sometimes called “metadata fields”) that make up the metadata standard."
 
-(definitions for metadata standard, schema, profile above are available here: https://pitt.libanswers.com/faq/214800)
+A *metadata standard* is "a high level document which establishes a common way of structuring and understanding data, and includes principles and implementation issues for utilizing the standard." A standard is a schema that is maintained by a governing body.
+
+A *metadata profile* "describes the use of metadata elements declared in a metadata standard and/or schema for a specific application or use-case. It adds rules and guidelines on the use of the elements, identifies element obligations and constraints (e.g. controlled vocabularies, name authorities, and encoding schemes), and provides comments and examples to assist in the understanding of the elements. An application profile may include metadata elements integrated from one or more metadata standards/schema. This allows it to meet the needs of a specific application or use-case."
 
 ## Controlled Vocabularies
 
