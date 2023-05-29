@@ -14,5 +14,3 @@ If you do not have a Google account, note that you can easily link a Google acco
 
 If you do not have or wish to create a Google account to login to the form, please reach out to us for assitance logging in.
 
-*TODO* create a demo Google account for attendees to login with that cannot be used to send email.
-
