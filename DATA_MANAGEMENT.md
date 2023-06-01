@@ -3,7 +3,7 @@
 For simplicity, it is recommended that you use Excel or an equivalent spreadsheet program to open and manipulate your dataset, and to save your dataset in CSV (Comma Separated Value) format.
 
 ## 1: Rows / Columns
-Best practice is to have one column for each unique variable. The variable name should be the header for the column that contains the data. You will also want to consider whether every variable in your dataset should be published or made available. Many datasets include information about calibration coefficients, error parameters, and similar information which most users will not need or be interested in. There is also a recommended order for the columns. Typically the following order is recommended: platform_ID, time, latitude, longitude, depth/height (if applicable), latitude, longitude, and variables. Below is an example of what properly ordered rows and columns might look like:
+Best practice is to have one column for each unique variable. The variable name should be the header for the column that contains the data. You will also want to consider whether every variable in your dataset should be published or made available. Many datasets include information about calibration coefficients, error parameters, and similar information which most users will not need or be interested in. There is also a recommended order for the columns. Typically the following order is recommended: platform_ID, time, latitude, longitude, depth/height (if applicable), and variables. Below is an example of what properly ordered rows and columns might look like:
 
 | platform_ID | time | latitude | longitude | wind_spd (m s-1) | surface_temperature (C) |
 | ----------- | -------------------- | -------- | -------- | ---------------- | ------------------------- |
