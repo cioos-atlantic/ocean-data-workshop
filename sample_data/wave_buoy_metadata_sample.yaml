@@ -60,16 +60,6 @@ contact:
   - collaborator
 distribution:
 - name:
-    en: ERDDAP Wave buoy data
-  url: https://cioosatlantic.ca/erddap/tabledap/wsp_grand_banks_waypoint3_wave_buoy.html
-- description:
-    en: These are the tabular data and data headers.
-    fr: Il s'agit des données tabulaires et des en-têtes de données.
-  name:
-    en: Original dataset in Excel format
-    fr: Ensemble de données original au format Excel
-  url: https://docs.google.com/spreadsheets/d/1gCb5bMQdzH5ESdeTKFMK_pYS09CPwAH1/edit?usp=sharing&ouid=100681791185328724784&rtpof=true&sd=true
-- name:
     en: Wave buoy user manual
     fr: Manuel d'utilisation de la bouée à vagues
   url: https://cioosatlantic.ca/raw/wsp/wave_buoy/0226113Z_Triaxys_Users_Manual.pdf
@@ -85,12 +75,6 @@ identification:
       fr:
       - vagues
       - Les Grands Bancs de Terre-Neuve
-    eov:
-      en:
-      - seaState
-      fr:
-      - État de la mer
-  progress_code: completed
   status: published
   temporal_begin: '2022-03-01T15:30:00.000Z'
   temporal_end: '2022-04-30T14:30:00.000Z'
