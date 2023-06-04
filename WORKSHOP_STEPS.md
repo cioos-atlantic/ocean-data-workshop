@@ -1,6 +1,9 @@
 
 # Data Management Workshop Steps
 
+Once you have been assigned to a group, there may be a need to share links or notes from your discussion on how to modify the dataset you are working on. Google docs and other resources for collaboration can be accessed on the wiki page:
+https://github.com/cioos-atlantic/ocean-data-workshop/wiki/Workshop-Collaboration
+
 ## Metadata management steps
 
 Review the [metadata management](METADATA_MANAGEMENT.md) documentation.
@@ -10,7 +13,9 @@ Login to the CIOOS metadata form using your Google account. The CIOOS metadata e
 
 If using your own (or a group member's) dataset, fill in the metadata form using the available metadata you have for your data.
 
-If using the Wave Buoy [sample metadata](sample_data/wave_buoy_metadata_sample.yaml), go through the steps of adding the metadata from this file into the metadata form.
+If using the [sample Wave Buoy dataset](SAMPLE_DATA.md) go through the steps of adding the metadata included for this dataste into the metadata form.
+
+*Note* Please add an identifier in brackets for your group at the start of the title in the metadata form. For instance if part of 'Group A', then for the title, put in "[Group A] Wave Buoy dataset ...".
 
 ## Data management steps
 

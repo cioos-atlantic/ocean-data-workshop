@@ -74,11 +74,6 @@ distribution:
     fr: Manuel d'utilisation de la bouée à vagues
   url: https://cioosatlantic.ca/raw/wsp/wave_buoy/0226113Z_Triaxys_Users_Manual.pdf
 identification:
-  abstract:
-    en: Wave height metrics (mean/max/significant wave height/period) at Waypoint
-      3 for the months March and April 2022.
-    fr: Mesures de la hauteur des vagues (hauteur/période moyenne/max/significative
-      des vagues) au Point de Cheminement 3 pour les mois de mars et avril 2022.
   dates:
     creation: '2022-03-01'
   keywords:

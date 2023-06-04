@@ -10,3 +10,8 @@ One objective of the workshop will be to take this CSV file in raw form and tran
 [CF Conventions](https://cfconventions.org)  
 [US IOOS Compliance Checker](https://compliance.ioos.us/index.html) [Online, Web-based]
 
+## Sample metadata
+
+The [Wave Buoy sample metadata](sample_data/wave_buoy_metadata_sample.yaml) file was provided that gives metadata about the sample dataset in YAML format.
+
+The sample Wave Buoy dataset also includes a [README file](sample_data/wave_buoy_readme.txt) with some additional information.
