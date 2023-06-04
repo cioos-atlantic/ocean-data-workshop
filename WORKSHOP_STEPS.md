@@ -1,7 +1,10 @@
 
 # Data Management Workshop Steps
 
+## Resources for group collaboration
+
 Once you have been assigned to a group, there may be a need to share links or notes from your discussion on how to modify the dataset you are working on. Google docs and other resources for collaboration can be accessed on the wiki page:
+
 https://github.com/cioos-atlantic/ocean-data-workshop/wiki/Workshop-Collaboration
 
 ## Metadata management steps
