@@ -9,3 +9,4 @@ Metadata management documentation can be found [here](METADATA_MANAGEMENT.md).
 
 Data management documentation can be found [here](DATA_MANAGEMENT.md).
 
+An overview of the steps to be performed by participants of the ocean data management workshop can be found [here](WORKSHOP_STEPS.md)

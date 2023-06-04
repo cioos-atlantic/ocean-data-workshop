@@ -1,6 +1,6 @@
 
 # Data Management
-For simplicity, it is recommended that you use Excel or an equivalent spreadsheet program to open and manipulate your dataset, and to save your dataset in CSV (Comma Separated Value) format.
+For simplicity, it is recommended that you use Excel, Google sheets, or an equivalent spreadsheet program to open and manipulate your dataset, and to save your final dataset in CSV (Comma Separated Value) format.
 
 ## 1: Rows / Columns
 Best practice is to have one column for each unique variable. The variable name should be the header for the column that contains the data. You will also want to consider whether every variable in your dataset should be published or made available. Many datasets include information about calibration coefficients, error parameters, and similar information which most users will not need or be interested in. There is also a recommended order for the columns. Typically the following order is recommended: platform_ID, time, latitude, longitude, depth/height (if applicable), and variables. Below is an example of what properly ordered rows and columns might look like:
@@ -18,9 +18,7 @@ ISO 8601 is an international standard for the worldwide exchange of date- and ti
 
 For timezones other than UTC, use + or - followed by the number of hours to shift UTC, e.g. YYYY-MM-DDThh:mm:ss-0400.
 
-For more information about ISO 8601 dates, see the Wikipedia page **TODO: add link**
-
-
+For more information about ISO 8601 dates, see the [Wikipedia page](https://en.wikipedia.org/wiki/ISO_8601).
 
 ### Spreadsheet Date formats
 
@@ -52,9 +50,9 @@ To enable interoperability, it is important that all users utilize common names 
 
 **CF Standard Names**: The Climate and Forecast (CF) Conventions include a standard name table that defines vocabularies to identify physical quantities. [Access the Standard Name Table here.](https://cfconventions.org/Data/cf-standard-names/current/build/cf-standard-name-table.html) If none of the available Standard Names accurately describe the variable or data within your dataset, it is possible to create a new name. Refer to the [Guidelines for Construction of CF Standard Names](http://cfconventions.org/Data/cf-standard-names/docs/guidelines.html) for information on how these Standard Names are constructred, and how new names might be derived following these conventions.
 
-**NERC Vocabulary Server (NVS)**: "The NVS gives access to standardised and hierarchically-organized vocabularies. It is managed by the British Oceanographic Data Centre at the National Oceanography Centre (NOC) in Liverpool and Southampton, and receives funding from the Natural Environment Research Council (NERC) in the United Kingdom." [Access the NERC Vocabulary Server here.](http://vocab.nerc.ac.uk).
+**NERC Vocabulary Server (NVS)**: "The NVS gives access to standardised and hierarchically-organized vocabularies. It is managed by the British Oceanographic Data Centre at the National Oceanography Centre (NOC) in Liverpool and Southampton, and receives funding from the Natural Environment Research Council (NERC) in the United Kingdom." [Access the NERC Vocabulary Server here.](http://vocab.nerc.ac.uk). See the NVS collections list [here](https://vocab.nerc.ac.uk/collection/)  for all the different standard vocabularies available on the NVS.
 
-**BODC P01 Vocabulary**: The P01 vocabulary defined by BODC fulfills a similar role to the CF standard names, but with additional detail in some cases, and the NVS gives some information about crosswalks between the two vocabularies. Check with the OOS that you plan to submit your data to about which of BODC P01 or CF names is preferred. Typically North American systems will rely on CF names while many EU systems use BODC terms. CIOOS standardizes on CF, but since the Government of Canada often uses BODC terms, we sometimes support both.
+**BODC P01 Vocabulary**: The P01 vocabulary defined by BODC fulfills a similar role to the CF standard names, but with additional detail in some cases, and the NVS gives some information about crosswalks between the two vocabularies. Check with the ocean observing system or other organization that you plan to submit your data to about which of BODC P01 or CF names is preferred. Typically North American systems will rely on CF names while many EU systems use BODC terms. CIOOS standardizes on CF, but since the Government of Canada often uses BODC terms, we sometimes support both. [Access the BODC P01 search via NVS here.](https://vocab.nerc.ac.uk/search_nvs/P01/)
 
 **Global Change Master Directory Keywords**: "Global Change Master Directory (GCMD) Keywords are a hierarchical set of controlled Earth Science vocabularies that help ensure Earth science data, services, and variables are described in a consistent and comprehensive manner and allow for the precise searching of metadata and subsequent retrieval of data, services, and variables. Initiated over twenty years ago, GCMD Keywords are periodically analyzed for relevancy and will continue to be refined and expanded in response to user needs." [Access the Global Change Master Directory Keywords here.](https://www.earthdata.nasa.gov/learn/find-data/idn/gcmd-keywords)
 
@@ -63,4 +61,4 @@ For each variable, it is necessary to define an applicable unit which is defined
 
 The Climate and Forecast Conventions defines a 'canonical unit' for each variable, which is necessary for compliance with this standard. Your variable must be either 1) in the canonical unit (e.g., Kelvin), or 2) in a format that is easily convertible to this unit (e.g., Celsius). As with variable names, it is important to use common names for units. You can explore this vocabulary in the [UDUNITS2 Database](https://ncics.org/portfolio/other-resources/udunits2/). In most cases, there is software that will perform the conversion for you.
 
-As with standard variable names, BODC has also defined units, using the P06 vocabulary. Depending on your region you may consider using P06 units instead of, or in addition to UDUNITS.
+As with standard variable names, BODC has also defined units, using the P06 vocabulary. Depending on your region you may consider using P06 units instead of, or in addition to UDUNITS. You can search for appropriate units for the variables in your dataset using the [BODC P06 search on NVS.](https://vocab.nerc.ac.uk/search_nvs/P06/)
