@@ -42,3 +42,6 @@ units: deg
  
 Mean Spread
 units: deg
+
+Water Temperature
+Units: C
