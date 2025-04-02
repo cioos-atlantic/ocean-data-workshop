@@ -1,7 +1,7 @@
 
 # Ocean Data Workshop
 
-This repository contains the documentation and sample data and metadata for the workshop being run as part of OCEANS 23.
+This repository contains the documentation and sample data and metadata for the CIOOS Atlantic data management workshop.
 
 For information about the sample dataset, see the [Sample Data](SAMPLE_DATA.md).
 
