@@ -14,4 +14,4 @@ One objective of the workshop will be to take this CSV file in raw form and tran
 
 The [Antigonish Sensor String metadata](sample_data/antigonish_sensorstring_metadata.yaml) file was provided that gives metadata about the sample dataset in YAML format.
 
-The sample Antigonish sensor string dataset also includes a [README file](sample_data/wave_buoy_readme.txt) with some additional information.
+The sample Antigonish sensor string dataset also includes a [README file](sample_data/antigonish_sensorstring_readme.txt) with some additional information.
