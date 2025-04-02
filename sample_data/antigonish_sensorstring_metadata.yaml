@@ -1,0 +1,184 @@
+metadata:
+  naming_authority: ca.cioos
+  identifier: c1816b73-8572-3d0a-abe3-8058dc0a371b
+  language: en
+  maintenance_note: Generated from https://cioos-siooc.github.io/metadata-entry-form
+  use_constraints:
+    limitations:
+      en: Licence
+      fr: Licence
+    licence:
+      title: Open Government Licence - Nova Scotia
+      code: OGL-NS-2.0
+      url: https://novascotia.ca/opendata/licence.asp
+  dates:
+    revision: '2025-02-10T15:25:35.419Z'
+    publication: '2025-02-10'
+spatial:
+  bbox:
+  - -62.647093
+  - 45.564957
+  - -61.51739
+  - 45.7080333333333
+  vertical:
+  - 0.0
+  - 1.6
+identification:
+  title:
+    en: Antigonish County Water Quality Data
+    fr: Données de qualité de l'eau du comté d'Antigonish
+  abstract:
+    en: "The Centre for Marine Applied Research (CMAR) provides high resolution ocean\
+      \ data from around the coast of Nova Scotia through their Coastal Monitoring\
+      \ Program. Through the Water Quality Branch of the program, CMAR collects temperature,\
+      \ dissolved oxygen, and salinity data using sensors deployed on stationary moorings.\
+      \ A typical mooring consists of a line anchored to the sea floor and suspended\
+      \ by a sub-surface buoy, with sensors attached at various depths. Alternatively,\
+      \ sensors may be attached to structures including buoys, docks, or aquaculture\
+      \ equipment. Sensors are deployed for several months, and data are measured\
+      \ every 1 minute to 1 hour. Station locations, summary reports, and data collection\
+      \ methods are available on the CMAR website (https://cmar.ca/coastal-monitoring-program/).\
+      \ Datasets and reports may be revised pending ongoing data collection and analyses.\
+      \ Automated Quality Control tests were applied to the data to identify outlying\
+      \ and unexpected observations. The results of these tests are summarized in\
+      \ the “qc_flag” columns of the dataset. Observations flagged as “Pass” passed\
+      \ all tests, while observations flagged as “Fail” failed at least one test and\
+      \ should be excluded from most analyses. “Suspect/Of Interest” flags highlight\
+      \ unusual events or poor quality data, and “Not Evaluated” flags indicate at\
+      \ least one test was not applied to the observation. Flags should be used as\
+      \ a guide only, and users are responsible for evaluating the data quality prior\
+      \ to use. For technical details on the Quality Control tests, visit the CMAR\
+      \ Data Governance website (https://dempsey-cmar.github.io/cmp-data-governance/pages/cmp_about.html).\
+      \ Other data quality considerations:  -\tThrough calibration-validation procedures,\
+      \ CMAR has discovered that the VR2AR temperature sensors typically record 0.5\
+      \ – 1 °C lower than other temperature sensors. This is not corrected for or\
+      \ flagged in the datasets but may be in the future. -\tSensor drift is not flagged\
+      \ in the datasets. -\tThe sensor_depth_at_low_tide_m is an estimate and should\
+      \ be compared to sensor_depth_measured_m when possible. Note the mooring can\
+      \ get “knocked down” by currents or sink from biofouling. Large discrepancies\
+      \ between the estimated depth and the minimum recorded depth are flagged in\
+      \ the column depth_crosscheck_flag. The Coastal Monitoring Program Water Quality\
+      \ data is organized by county. These datasets are very large, typically exceeding\
+      \ the number of rows that can be viewed in Excel. CMAR recommends filtering\
+      \ the data to the waterbody, station, depth, quality control flag, and/or time\
+      \ period of interest before exporting. Take care when exporting data filtered\
+      \ on quality control columns, because the whole row will be filtered (i.e.,\
+      \ all other variables measured at that timestamp will also be excluded).  If\
+      \ you have accessed any Coastal Monitoring Program data, CMAR would appreciate\
+      \ your feedback: https://forms.gle/AyD7Vi3BpKGe6ueYA. Please acknowledge the\
+      \ Centre for Marine Applied Research in any published material that uses this\
+      \ data. Contact info@cmar.ca for more information."
+    fr: 'Le Center for Marine Applied Research (CMAR) fournit des données sur l''océan
+      à haute résolution de la côte de la Nouvelle-Écosse grâce à leur programme de
+      surveillance côtière.Grâce à la branche de la qualité de l''eau du programme,
+      CMAR recueille la température, l''oxygène dissous et les données de salinité
+      à l''aide de capteurs déployés sur des amarres stationnaires.Un amarrage typique
+      se compose d''une ligne ancrée au fond marin et suspendu par une bouée sous-surface,
+      avec des capteurs attachés à différentes profondeurs.Alternativement, les capteurs
+      peuvent être attachés à des structures, notamment des bouées, des quais ou des
+      équipements d''aquaculture.Les capteurs sont déployés pendant plusieurs mois
+      et les données sont mesurées toutes les minutes à 1 heure.Les emplacements des
+      stations, les rapports de résumé et les méthodes de collecte de données sont
+      disponibles sur le site Web de CMAR (https://cmar.ca/coastal-monitoring-program/).Les
+      ensembles de données et les rapports peuvent être révisés en attendant la collecte
+      et les analyses de données en cours.Des tests automatisés de contrôle de la
+      qualité ont été appliqués aux données pour identifier les observations périphériques
+      et inattendues.Les résultats de ces tests sont résumés dans les colonnes «QC_FLAG»
+      de l''ensemble de données.Les observations signalées en tant que «pass» ont
+      réussi tous les tests, tandis que les observations ont signalé en «échec» ont
+      échoué au moins un test et devraient être exclues de la plupart des analyses.Les
+      drapeaux «suspects / d''intérêt» mettent en évidence des événements inhabituels
+      ou des données de mauvaise qualité, et les drapeaux «non évalués» indiquent
+      qu''au moins un test n''a pas été appliqué à l''observation.Les drapeaux doivent
+      être utilisés uniquement comme guide et les utilisateurs sont responsables de
+      l''évaluation de la qualité des données avant l''utilisation.Pour plus de détails
+      sur les tests de contrôle de la qualité, visitez le site Web de la gouvernance
+      des données CMAR (https://dempsey-cmar.github.io/cmp-data-governance/pages/cmp_about.html).Autres
+      considérations de qualité des données: - Grâce à des procédures de validation
+      d''étalonnage, CMAR a découvert que les capteurs de température VR2AR enregistrent
+      généralement 0,5 à 1 ° C inférieur à ceux des autres capteurs de température.Ceci
+      n''est pas corrigé ou signalé dans les ensembles de données, mais peut être
+      à l''avenir.- La dérive du capteur n''est pas signalée dans les ensembles de
+      données.- Le capteur_depth_at_low_tide_m est une estimation et doit être comparé
+      à Sensor_Depth_Measured_M lorsque cela est possible.Notez que l''amarrage peut
+      être «renversé» par des courants ou un puits de la biofoux.De grandes écarts
+      entre la profondeur estimée et la profondeur enregistrée minimale sont signalées
+      dans la colonne Depth_Crosscheck_Flag.Le programme de surveillance côtière des
+      données de qualité de l''eau est organisé par le comté.Ces ensembles de données
+      sont très importants, dépassant généralement le nombre de lignes qui peuvent
+      être visualisées dans Excel.CMAR recommande de filtrer les données sur le corps
+      à eau, la station, la profondeur, le drapeau de contrôle de la qualité et /
+      ou la période d''intérêt avant de l''exportation.Faites attention lors de l''exportation
+      de données filtrées sur des colonnes de contrôle de qualité, car la ligne entière
+      sera filtrée (c''est-à-dire que toutes les autres variables mesurées à cet horodat
+      seront également exclues).Si vous avez accédé aux données du programme de surveillance
+      côtière, CMAR apprécierait vos commentaires: https://forms.gle/ayd7vi3bpkge6ueya.Veuillez
+      reconnaître le Center for Marine Applied Research dans tout matériel publié
+      qui utilise ces données.Contactez info@cmar.ca pour plus d''informations.'
+  dates:
+    creation: '2022-01-27'
+    publication: '2022-01-27'
+    revision: '2025-01-24'
+  keywords:
+    default:
+      en:
+      - coastal monitoring program
+      - antigonish county
+      - aquaculture
+      - climate change
+      - coast
+      - dissolved oxygen
+      - downloadable data
+      - ecosystem
+      - environment
+      - environmental monitoring
+      - essential ocean variables
+      - fisheries
+      - fishing
+      - nova scotia
+      - oceanography
+      - temperature
+      - water quality
+      - cmar
+      - centre for marine applied research
+      - ocean
+      - buoy
+      - mooring
+    eov:
+      en:
+      - Oxygen
+      - subSurfaceTemperature
+      fr:
+      - Oxygène
+      - Température sous la surface
+  status: published
+  progress_code: onGoing
+  temporal_begin: '2018-07-24T22:15:00.000Z'
+contact:
+- roles:
+  - owner
+  - custodian
+  - author
+  - distributor
+  organization:
+    name: Centre for Marine Applied Research (CMAR)
+  individual:
+    position: Author/Owner
+    email: info(at)cmar.ca
+distribution:
+- url: https://data.novascotia.ca/api/views/kgdu-nqdp/files/1fe6c9b5-a96d-489a-8269-e4bcd6c38ef8
+  name: CMAR Water Quality Datasets Data Dictionary.xlsx
+- url: https://cioosatlantic.ca/erddap/tabledap/kgdu-nqdp.html
+  name: ERDDAP Data Access
+platform:
+- id: Monks Head
+  description:
+    en: Monks Head
+  instruments:
+  - id: aquameasure-675012
+    manufacturer: Innovasea
+    type:
+      en: Sensor
+      fr: ''
+    version: ''
+  
