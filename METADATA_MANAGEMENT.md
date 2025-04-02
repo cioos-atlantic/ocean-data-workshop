@@ -33,5 +33,5 @@ If you have a Google account, you can login to the form using your Google creden
 If you do not have a Google account, note that you can easily link a Google account using your existing institutional email account. Instructions for doing so are available in the 'Use an existing email address' section from the [Google support page](https://support.google.com/accounts/answer/27441?hl=en).
 
 If you do not have or wish to create a Google account to login to the form, please use the generic ocean data workshop account, and ask one of us for the password. The username is:
-cioos.ocean.data.workshop@outlook.com
+data.management.workshop@outlook.com
 
