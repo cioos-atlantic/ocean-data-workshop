@@ -19,7 +19,7 @@ If using your own (or a group member's) dataset, fill in the metadata form using
 If using the [sample Antigonish Sensor String dataset](SAMPLE_DATA.md) go through the steps of adding the metadata included for this dataste into the metadata form.
 
 *Note* Please add an identifier in brackets at the start of the title in the metadata form. For instance:
-* If working solo, then for the title, put in [Sample] Antigonish sensor string dataset ..."
+* If working solo, then for the title, put in "[Sample] Antigonish sensor string dataset ..."
 * If part of a group such as 'Group A', then for the title, put in "[Group A] Antigonish sensor string dataset ..."
 
 ## Data management steps
