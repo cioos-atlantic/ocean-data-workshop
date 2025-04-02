@@ -1,4 +1,4 @@
-waterbody,station,coordinates,deployment dates,string configuration,sensor type,sensor serial number,year,month,day,hour,minute,second,depth,depth unit,dissolved oxygen,dissolved oxygen unit,temperature,temperature unit
+waterbody,station,coordinates,deployment range,string configuration,sensor type,sensor serial number,year,month,day,hour,minute,second,depth,depth unit,dissolved oxygen,dissolved oxygen unit,temperature,temperature unit
 Monks Head Harbour,Monks Head,"N45° 39' 17.496"" W61° 49' 43.284""",2023-11-01 to 2024-05-15,sub-surface buoy,aquameasure,675012,2024,01,07,00,03,24,1.6,m,102.3,% saturation,32.432,fahrenheit
 Monks Head Harbour,Monks Head,"N45° 39' 17.496"" W61° 49' 43.284""",2023-11-01 to 2024-05-15,sub-surface buoy,aquameasure,675012,2024,01,07,00,13,24,1.6,m,102.2,% saturation,32.432,fahrenheit
 Monks Head Harbour,Monks Head,"N45° 39' 17.496"" W61° 49' 43.284""",2023-11-01 to 2024-05-15,sub-surface buoy,aquameasure,675012,2024,01,07,00,23,24,1.6,m,101.7,% saturation,32.468,fahrenheit
