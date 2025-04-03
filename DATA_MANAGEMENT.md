@@ -40,6 +40,10 @@ Once this is complete, the next step is to create a combined date and time colum
 
 This will show the date/time as YYYY-MM-DD hh:mm:ss, and since the time is now in UTC, only minor changes will be needed in future to convert this to compliant ISO 8601 formatted dates.
 
+If date and time components are separated into their own columns you can expand the formula to include the separators. For example with columns year, month, day, hour, minute, second (in UTC):
+
+'=CONCATENATE(A2,"-",B2,"-",C2,"T",D2,":",E2,":", F2, "Z")'
+
 ## 3: Latitude and Longitude
 If the location coordinates in your dataset are in degrees, minutes, seconds format, you can [follow the steps here](LAT_LON_CONVERSION.md) to convert it to the standard decimal degrees format.
 
