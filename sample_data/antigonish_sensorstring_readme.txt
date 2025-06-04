@@ -34,35 +34,20 @@ sensor_serial_number
 Data type: text	
 Unique identifying number for the sensor that recorded the measurement
 
-year
-Data type: number
+date
+Date of sample. Formatted YYYY-mm-dd
+Data type: date
 
-month
-Data type: number
-
-day
-Data type: number
-
-hour
-Data type: number
-
-minute
-Data type: number
-
-seconds
-Data type: number
+time
+Time sample was taken. In UTC. Formatted HH:MM:SS
+Data type: time
 
 depth
 Data type: number
 Units: metres	
 Estimated depth of the sensor at low tide, in metres, based on its position in the sensor string configuration
 
-dissolved oxygen
+temp
 Data type: number
-Units: % saturation
-Dissolved oxygen measurement, in units of percent saturation
-
-temperature
-Data type: number
-Units: F	
-Sea water temperature measurement, in degrees Fahrenheit
+Units: C
+Sea water temperature measurement, in degrees Celsius

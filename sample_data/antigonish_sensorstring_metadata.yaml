@@ -127,7 +127,6 @@ identification:
       - aquaculture
       - climate change
       - coast
-      - dissolved oxygen
       - downloadable data
       - ecosystem
       - environment
@@ -146,10 +145,8 @@ identification:
       - mooring
     eov:
       en:
-      - Oxygen
       - subSurfaceTemperature
       fr:
-      - Oxygène
       - Température sous la surface
   status: published
   progress_code: onGoing
