@@ -6,7 +6,7 @@
 Try converting the point
 44° 42′ 0″ N, 63° 38′ 0″ W
 from degrees, minutes, seconds format to decimal degress using the web-based conversion tool here:
-https://www.fcc.gov/media/radio/dms-decimal
+https://www.fcc.gov/media/radio/dms-decima
 
 ## Converting a column of data 
 
